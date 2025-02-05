@@ -27,7 +27,7 @@ btnAdicionar.addEventListener('click', () => {
   }
 });
 
-// Função para atualizar a lista de nomes na tela (sem números de ordem)
+// Função para atualizar a lista de nomes na tela
 function atualizarListaNomes() {
   listaDeNomes.innerHTML = '';                    // Limpa a lista atual
   nomes.forEach((nome) => {
